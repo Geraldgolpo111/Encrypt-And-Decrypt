@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Caesar Cipher</h1>
+  
+  <div class="container">
+    <div class="form-group">
+      <label for="fileInput">Load text from file:</label>
+      <input type="file" id="fileInput">
+    </div>
+    
+    <div class="form-group">
+      <label for="textInput">Enter plain text:</label>
+      <textarea id="textInput"></textarea>
+    </div>
+    
+    <div class="form-group">
+      <label for="shiftInput">Shift value:</label>
+      <input type="number" id="shiftInput" min="1" max="25" value="1">
+    </div>
+    
+    <div class="form-group">
+      <label for="resultTextarea">Result:</label>
+      <textarea id="resultTextarea" readonly></textarea>
+    </div>
+    
+    <div class="button-group">
+      <button id="encryptButton">Encrypt</button>
+      <button id="decryptButton">Decrypt</button>
+      <button id="saveButton" disabled>Save</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

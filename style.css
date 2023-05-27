@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: linear-gradient(Black, white);
+    color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"],
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    resize: vertical;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-group button {
+    margin-right: 10px;
+  }
+  
+  .result-group {
+    margin-top: 15px;
+    border-top: 1px solid #888;
+    padding-top: 10px;
+  }
+  
+  .result-group label {
+    margin-bottom: 0;
+  }
+  
+  .result-group textarea {
+    margin-top: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
